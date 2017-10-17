@@ -1,0 +1,59 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    background-image: url("../images/regal.png");
+}
+
+.g-border {
+    border: 1px solid black;
+}
+
+.form-control .btn .btn-danger {
+  width:50%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trailer {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.trailer iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.m-logo {
+    width: 15%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #777;
+}
+
+.showcase {
+    background-image: url(../images/movie-bg.jpg);
+    height: 600px;
+    padding: 130px 0;
+
+    .container{
+        background: #fff;
+        opacity: 0.8;
+        padding: 20px 30px 30px 30px;
+    }
+}
+
+
+
+
+
